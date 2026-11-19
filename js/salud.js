@@ -1,152 +1,223 @@
+// Banco de preguntas de fundamentos de programacion.
 const salud = [
     {
         numb: 1,
-        question: "¿Qué es la programación?",
-        answer: "C) Crear instrucciones para que una computadora realice tareas.",
-        options: ["A) Reparar componentes electrónicos.", "B) Instalar sistemas operativos.", "C) Crear instrucciones para que una computadora realice tareas.", ""]
+        question: "¿Que es programar?",
+        answer: "Escribir instrucciones para que una computadora realice tareas.",
+        options: [
+            "Armar una computadora",
+            "Escribir instrucciones para que una computadora realice tareas.",
+            "Navegar por internet",
+            "Diseñar un teclado"
+        ]
     },
     {
         numb: 2,
-        question: "",
-        answer: "",
-        options: ["", "", "", ""]
+        question: "¿Que es un algoritmo?",
+        answer: "Una secuencia ordenada de pasos para resolver un problema.",
+        options: [
+            "Un lenguaje de marcado",
+            "Una pieza de hardware",
+            "Una secuencia ordenada de pasos para resolver un problema.",
+            "Un tipo de archivo de imagen"
+        ]
     },
     {
         numb: 3,
-        question: "",
-        answer: "",
-        options: ["", "", "", ""]
+        question: "¿Que es una variable en un programa?",
+        answer: "Un espacio identificado donde se guarda un dato.",
+        options: [
+            "Un espacio identificado donde se guarda un dato.",
+            "Una pantalla del computador",
+            "Un error de sintaxis",
+            "Una red de internet"
+        ]
     },
     {
         numb: 4,
-        question: "",
-        answer: "",
-        options: ["", "", "", ""]
+        question: "¿Cual de estos es un lenguaje de programacion?",
+        answer: "Python",
+        options: [
+            "HTML",
+            "Windows",
+            "Python",
+            "Google Chrome"
+        ]
     },
     {
         numb: 5,
-        question: "",
-        answer: "",
-        options: ["", "", "", ""]
+        question: "¿Que muestra print() en Python?",
+        answer: "Muestra un valor o mensaje en la salida.",
+        options: [
+            "Borra el programa",
+            "Muestra un valor o mensaje en la salida.",
+            "Crea una carpeta",
+            "Cierra la computadora"
+        ]
     },
     {
         numb: 6,
-        question: "",
-        answer: "",
-        options: ["", "", "", ""]
+        question: "¿Que tipo de dato representa el valor 25?",
+        answer: "Entero",
+        options: [
+            "Cadena",
+            "Booleano",
+            "Entero",
+            "Caracter"
+        ]
     },
     {
         numb: 7,
-        question: "",
-        answer: "",
-        options: ["", "", "", ""]
+        question: "¿Cual operador se usa para sumar dos numeros en JavaScript?",
+        answer: "+",
+        options: [
+            "+",
+            "==",
+            "%",
+            "&&"
+        ]
     },
     {
         numb: 8,
-        question: "¿?",
-        answer: "",
-        options: ["", "", "", ""]
+        question: "¿Para que sirve una condicion if?",
+        answer: "Para ejecutar instrucciones segun se cumpla una condicion.",
+        options: [
+            "Para repetir siempre el programa",
+            "Para guardar una imagen",
+            "Para ejecutar instrucciones segun se cumpla una condicion.",
+            "Para declarar un archivo HTML"
+        ]
     },
     {
         numb: 9,
-        question: "?",
-        answer: "",
-        options: ["", "", "", ""]
+        question: "¿Que estructura permite repetir instrucciones mientras se cumpla una condicion?",
+        answer: "Bucle",
+        options: [
+            "Comentario",
+            "Bucle",
+            "Variable",
+            "Etiqueta"
+        ]
     },
     {
         numb: 10,
-        question: "",
-        answer: "",
-        options: ["", "", "", ""]
+        question: "¿Que resultado produce 3 * 4?",
+        answer: "12",
+        options: [
+            "7",
+            "12",
+            "34",
+            "1"
+        ]
     },
     {
         numb: 11,
-        question: "",
-        answer: "",
-        options: ["", "", "", ""]
+        question: "¿Que significa depurar un programa?",
+        answer: "Buscar y corregir errores.",
+        options: [
+            "Cambiar el monitor",
+            "Buscar y corregir errores.",
+            "Traducir una pagina",
+            "Apagar el equipo"
+        ]
     },
     {
         numb: 12,
-        question: "¿Qué mineral fortalece los huesos?",
-        answer: "Calcio",
-        options: ["Hierro", "Calcio", "Sodio", "Potasio"]
+        question: "¿Que es una funcion?",
+        answer: "Un bloque reutilizable de instrucciones.",
+        options: [
+            "Un bloque reutilizable de instrucciones.",
+            "Un componente fisico",
+            "Una carpeta temporal",
+            "Un tipo de virus"
+        ]
     },
     {
         numb: 13,
-        question: "¿Cuál es el órgano más grande del cuerpo?",
-        answer: "La piel",
-        options: ["Hígado", "Pulmón", "Piel", "Corazón"]
+        question: "¿Que valor representa true?",
+        answer: "Verdadero",
+        options: [
+            "Texto",
+            "Cero siempre",
+            "Verdadero",
+            "Una lista"
+        ]
     },
     {
         numb: 14,
-        question: "¿Qué célula transporta oxígeno?",
-        answer: "Glóbulo rojo",
-        options: ["Plaqueta", "Neurona", "Glóbulo rojo", "Leucocito"]
+        question: "¿Con que simbolo suele comenzar un comentario de una linea en JavaScript?",
+        answer: "//",
+        options: [
+            "<!--",
+            "//",
+            "**",
+            "##"
+        ]
     },
     {
         numb: 15,
-        question: "¿Qué sistema digiere los alimentos?",
-        answer: "Digestivo",
-        options: ["Nervioso", "Digestivo", "Óseo", "Endocrino"]
+        question: "¿Que operador compara igualdad estricta en JavaScript?",
+        answer: "===",
+        options: [
+            "=",
+            "==",
+            "===",
+            "!="
+        ]
     },
     {
         numb: 16,
-        question: "¿Qué vitamina ayuda a la visión?",
-        answer: "Vitamina A",
-        options: ["A", "B", "C", "D"]
+        question: "¿Que estructura de datos guarda varios valores en una secuencia en JavaScript?",
+        answer: "Arreglo",
+        options: [
+            "Arreglo",
+            "Condicion",
+            "Funcion",
+            "Comentario"
+        ]
     },
     {
         numb: 17,
-        question: "¿Qué órgano produce insulina?",
-        answer: "Páncreas",
-        options: ["Riñón", "Pulmón", "Páncreas", "Bazo"]
+        question: "¿Que palabra se usa para declarar una constante en JavaScript?",
+        answer: "const",
+        options: [
+            "fixed",
+            "const",
+            "staticlet",
+            "constant"
+        ]
     },
     {
         numb: 18,
-        question: "¿Cuál es la temperatura corporal promedio?",
-        answer: "37°C",
-        options: ["35°C", "36°C", "37°C", "38°C"]
+        question: "¿Que es un error de sintaxis?",
+        answer: "Una escritura que no respeta las reglas del lenguaje.",
+        options: [
+            "Una escritura que no respeta las reglas del lenguaje.",
+            "Una variable con muchos datos",
+            "Una computadora lenta",
+            "Una respuesta correcta"
+        ]
     },
     {
         numb: 19,
-        question: "¿Qué estudia la microbiología?",
-        answer: "Microorganismos",
-        options: ["Animales", "Plantas", "Microorganismos", "Órganos"]
+        question: "¿Que instruccion de Python permite leer datos ingresados por el usuario?",
+        answer: "input()",
+        options: [
+            "print()",
+            "input()",
+            "write()",
+            "scanpage()"
+        ]
     },
     {
         numb: 20,
-        question: "¿Cuál es la principal fuente de energía del organismo?",
-        answer: "Carbohidratos",
-        options: ["Proteínas", "Vitaminas", "Carbohidratos", "Minerales"]
-    },
-    {
-        numb: 21,
-        question: "¿Qué órgano produce bilis?",
-        answer: "Hígado",
-        options: ["Páncreas", "Estómago", "Hígado", "Intestino"]
-    },
-    {
-        numb: 22,
-        question: "¿Qué enfermedad causa el virus VIH?",
-        answer: "SIDA",
-        options: ["COVID-19", "Tuberculosis", "SIDA", "Hepatitis"]
-    },
-    {
-        numb: 23,
-        question: "¿Qué sistema produce hormonas?",
-        answer: "Endocrino",
-        options: ["Óseo", "Muscular", "Endocrino", "Digestivo"]
-    },
-    {
-        numb: 24,
-        question: "¿Cuál es el hueso más largo del cuerpo?",
-        answer: "Fémur",
-        options: ["Tibia", "Peroné", "Fémur", "Radio"]
-    },
-    {
-        numb: 25,
-        question: "¿Qué órgano permite el intercambio gaseoso?",
-        answer: "Pulmones",
-        options: ["Riñones", "Pulmones", "Corazón", "Hígado"]
-    },
+        question: "¿Que es el codigo fuente?",
+        answer: "Las instrucciones escritas por una persona en un lenguaje de programacion.",
+        options: [
+            "El cable de la computadora",
+            "Las instrucciones escritas por una persona en un lenguaje de programacion.",
+            "La memoria RAM",
+            "Una pagina impresa"
+        ]
+    }
 ];

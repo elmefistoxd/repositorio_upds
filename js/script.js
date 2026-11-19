@@ -102,8 +102,8 @@ function cargarPreguntas() {
             questions = [...sociales];
             break;
 
-        case "salud":
-            questions = [...salud];
+        case "programacion":
+            questions = [...salud, ...pokedex];
             break;
 
         case "economicas":
